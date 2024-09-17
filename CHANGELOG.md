@@ -1,5 +1,9 @@
 # DDD
 
+## 1.0.3
+### Added - Descoberta e formação do conhecimento
+- Add new readme file with the class 3 anotations.
+
 ## 1.0.2
 ### Added - Domain Storytelling
 - Add new readme file with the Storytelling anotations.  
