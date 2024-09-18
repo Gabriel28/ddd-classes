@@ -42,12 +42,20 @@ O papel do conformista é aceitar que o fornedor não irá se adequar a nossa ap
 
 ![conformista](../resources/conformista.png);
 
-Quando  o  padrão  de  serviço  é  determinado  pelo fornecedor  (U)  e  este  não renuncia a seu protocolo, ou seja, ignora as demandas do cliente, este tem que “se conformar” e se adequar ao que o fornecedor o provê. Esse é o modelo conformista
+Quando  o  padrão  de  serviço  é  determinado  pelo fornecedor  (U)  e  este  não renuncia a seu protocolo, ou seja, ignora as demandas do cliente (D), este tem que “se conformar” e se adequar ao que o fornecedor o provê. Esse é o modelo conformista
 
 
-### Camada anticorrupção: 
-Abstrai diferenças de protocolo entre contextos.
+### Camada anticorrupção (ACL - Anti-corruption Layer): 
+Abstrai diferenças de protocolo entre contextos. Por exemplo:
+
+![acl](../resources/acl.png);
+
+Neste exemplo, temos uma situação em que o CRM, que tem o time 1 e 2 trabalhando, não aceita o tipo de padrão que vem do time 3, do contexto de identidade e acesso, e este não vai alterar seu protocolo para atender a demanda do CRM, que também não irá realizar modificações, assim isso gera um não conformismo. Com isso, o time 1 e dois criam uma camada para abstrair esse protocolo e criar o seu próprio modelo para manter a integridade da solução. 
+
+Essa camada anti-corrupção (ACL) representa o modelo do exemplo acima. 
 
 
-### Serviço de host aberto: 
+### Serviço de host aberto (O): 
 Um serviço padronizado é disponibilizado para o cliente.
+
+To be continue ... 
