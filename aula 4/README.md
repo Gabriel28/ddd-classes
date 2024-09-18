@@ -38,7 +38,12 @@ Exemplo:
 
 
 ### Conformista
-O papel do conformista é aceitar que o fornedor não irá se adequar a nossa aplicação, por isso, nós temos que nos adequar a aplicação do cliente. 
+O papel do conformista é aceitar que o fornedor não irá se adequar a nossa aplicação, por isso, nós temos que nos adequar a aplicação do cliente.
+
+![conformista](../resources/conformista.png);
+
+Quando  o  padrão  de  serviço  é  determinado  pelo fornecedor  (U)  e  este  não renuncia a seu protocolo, ou seja, ignora as demandas do cliente, este tem que “se conformar” e se adequar ao que o fornecedor o provê. Esse é o modelo conformista
+
 
 ### Camada anticorrupção: 
 Abstrai diferenças de protocolo entre contextos.
